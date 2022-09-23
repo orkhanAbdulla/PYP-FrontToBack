@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hp\\Desktop\\PYP\\PYP-FtontToBack\\PYP-FtontToBack\\PYP-FtontToBack.csproj": {}
+    "C:\\Users\\hp\\Desktop\\PYP-FrontToBack\\PYP-FtontToBack\\PYP-FtontToBack.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hp\\Desktop\\PYP\\PYP-FtontToBack\\PYP-FtontToBack\\PYP-FtontToBack.csproj": {
+    "C:\\Users\\hp\\Desktop\\PYP-FrontToBack\\PYP-FtontToBack\\PYP-FtontToBack.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\Desktop\\PYP\\PYP-FtontToBack\\PYP-FtontToBack\\PYP-FtontToBack.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\Desktop\\PYP-FrontToBack\\PYP-FtontToBack\\PYP-FtontToBack.csproj",
         "projectName": "PYP-FtontToBack",
-        "projectPath": "C:\\Users\\hp\\Desktop\\PYP\\PYP-FtontToBack\\PYP-FtontToBack\\PYP-FtontToBack.csproj",
+        "projectPath": "C:\\Users\\hp\\Desktop\\PYP-FrontToBack\\PYP-FtontToBack\\PYP-FtontToBack.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\Desktop\\PYP\\PYP-FtontToBack\\PYP-FtontToBack\\obj\\",
+        "outputPath": "C:\\Users\\hp\\Desktop\\PYP-FrontToBack\\PYP-FtontToBack\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -45,6 +45,18 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.9, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
